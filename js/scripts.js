@@ -6,11 +6,11 @@ $(document).ready(function() {
     var startInput = $("input#start").val();
     var endInput = $("input#end").val();
 
-  $(".name").text(nameInput);
-  $(".reason").text(reasonInput);
-  $(".date").text(dateInput);
-  $(".start").text(startInput);
-  $(".end").text(endInput);
+  $(".requestor").text(nameInput);
+  $(".cause").text(reasonInput);
+  $(".day").text(dateInput);
+  $(".begin").text(startInput);
+  $(".finish").text(endInput);
 
   $("#confirmation").show();
 
